@@ -1,58 +1,36 @@
-.name {
-	margin-top: 150px;
-	margin-right: 50px;
-	margin-bottom: 100%;
+.text {
+	position:relative;
+	width: 200px;
+	height: 200px;
+	font-size: 80px;
 	border: 1px solid red;
-	width: 650px;
-	height: 280px;
-	float: right;
-	text-align: center;
-	font-size: 125px;
+	top: 200px;
+	left: 520px;
+	padding: 0;
 }
 
+#subtitle {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	top: 300px;
+	font-size: 30px;
+	padding: 0;
+	right: 100px;
+}
 .profilepage {
 	background:#888 url(Me2.jpg) no-repeat center center fixed;
 	background-size: 100%;
 }
 
-.head {
-	font-family: 'LeagueGothicRegular', arial, helvetica;
-	font-size: 40px;
-	color: #111;
-	text-align: center;
-}
-
-.linkedin {
-	background: none;
-	border: none;
-}
-
-.google {
-	background: none;
-	border: none;
-}
-
-.facebook {
-	background: none;
-	border: none;
-}
-
-.box {
+.wrapper.container {
+	position: relative;
 	width: 100%;
-	margin-right: 0;
-	margin-left: 0;
-	border: 0;
-	height: 500px;
-	padding: 0;
-	display: inline-block;
-	background-color: white;
-	outline: 0;
-}
-
-.socialbar {
-	float:right;
-	margin-top: 500px;
-	border: 1px solid red;
+	height: 300px;
+	border: none;
+	top: 500px;
+	background: hsla(193, 30%, 46%, 0.45);
+	background-size: 100%;
 }
 
 
